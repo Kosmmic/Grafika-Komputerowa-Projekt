@@ -1,0 +1,18 @@
+# Kompilaty i pliki binarne (artefakty budowania)
+bin/
+obj/
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# Pliki specyficzne dla Code::Blocks (ustawienia lokalne)
+*.layout
+*.depend
+
+# Pliki tymczasowe i logi
+*.log
+*.tmp
