@@ -63,10 +63,15 @@ void Funkcja8() {
 }
 
 void Funkcja9() {
-
-    //...
-
-    SDL_UpdateWindowSurface(window);
+	zapiszPlik();
+	odczytajPlik();
+	zapiszPlik8();
+	odczytajPlik8();
+	zapiszPlik4();
+	odczytajPlik4();
+	zapiszPlik4Niestandardowy();
+	odczytajPlik4Niestandardowy();
+	SDL_UpdateWindowSurface(window);
 }
 
 
