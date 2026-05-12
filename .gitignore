@@ -12,7 +12,15 @@ obj/
 # Pliki specyficzne dla Code::Blocks (ustawienia lokalne)
 *.layout
 *.depend
+*.bak
+*.bin
+*.cbp.bak
+
 
 # Pliki tymczasowe i logi
 *.log
 *.tmp
+
+!SDL2/lib/*.a
+!SDL2/lib/*.lib
+!SDL2/bin/*.dll
