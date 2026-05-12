@@ -46,7 +46,7 @@ void Funkcja7() {
 }
 
 void Funkcja8() {
-
+    ::ileKubelkow = 0;
     paletaMedianCutColor();
     FloydSteinbergColor();
     SDL_UpdateWindowSurface(window);
