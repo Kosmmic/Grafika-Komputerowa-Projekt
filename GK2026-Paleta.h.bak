@@ -14,14 +14,4 @@ SDL_Color z8Kdo24K(Uint8 v);
 Uint8 z24Kdo4K(SDL_Color kolor);
 SDL_Color z4Kdo24K(Uint8 v);
 
-SDL_Color z4Sdo24K(Uint8 v);
-Uint8 z24Kdo4S(SDL_Color kolor);
-
-void narzuconaV1();
-void narzuconaV2();
-void narzuconaV3();
-
-void PaletaNarzucona(bool trybKolorowy);
-void paletaWykryta();
-void czyscPalete();
 #endif // GK2026_PALETA_H_INCLUDED

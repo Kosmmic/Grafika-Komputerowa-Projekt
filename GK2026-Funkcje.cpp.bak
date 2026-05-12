@@ -5,50 +5,60 @@
 #include "GK2026-MedianCut.h"
 #include "GK2026-Pliki.h"
 
+
 void Funkcja1() {
-    narzuconaV1();
-    narzuconaV2();
-    narzuconaV3();
+
+    //...
+
     SDL_UpdateWindowSurface(window);
 }
 
 void Funkcja2() {
-    PaletaNarzucona(false);
+
+    //...
+
     SDL_UpdateWindowSurface(window);
 }
 
 void Funkcja3() {
-    PaletaNarzucona(true);
+
+    //...
+
     SDL_UpdateWindowSurface(window);
 }
 
 void Funkcja4() {
-    paletaWykryta();
+
+    //...
+
     SDL_UpdateWindowSurface(window);
 }
 
 void Funkcja5() {
-    Bayer();
+
+    //...
+
     SDL_UpdateWindowSurface(window);
 }
 
 void Funkcja6() {
-    BayerKolor();
+
+    //...
+
     SDL_UpdateWindowSurface(window);
 }
 
 void Funkcja7() {
-    ::ileKubelkow = 0;
-    czyscPalete();
-    paletaMedianCutBW();
-    FloydSteinbergBW();
+
+    //...
+
     SDL_UpdateWindowSurface(window);
 }
 
 void Funkcja8() {
 
-    paletaMedianCutColor();
-    FloydSteinbergColor();
+    //...
+
     SDL_UpdateWindowSurface(window);
 }
 
