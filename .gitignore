@@ -21,6 +21,11 @@ obj/
 *.log
 *.tmp
 
+# Artefakty IDE/OS
+.DS_Store
+.idea/
+GK_projekt
+
 !SDL2/lib/*.a
 !SDL2/lib/*.lib
 !SDL2/bin/*.dll
