@@ -3,6 +3,7 @@
 #include "GK2026-Funkcje.h"
 #include "GK2026-Paleta.h"
 #include "GK2026-MedianCut.h"
+#include "GK2026-DG8.h"
 
 #include <exception>
 #include <string.h>
@@ -85,6 +86,12 @@ int main(int argc, char* argv[]) {
                     ladujBMP("obrazek8.bmp", 0, 0);
                 if (event.key.keysym.sym == SDLK_l)
                     ladujBMP("obrazek9.bmp", 0, 0);
+                if (event.key.keysym.sym == SDLK_0)
+                    Funkcja10();
+                if (event.key.keysym.sym == SDLK_LEFTBRACKET)
+                    zmienTrybDG8();
+                if (event.key.keysym.sym == SDLK_RIGHTBRACKET)
+                    zmienDitheringDG8();
                 if (event.key.keysym.sym == SDLK_b)
                     czyscEkran(0, 0, 0);
                 else

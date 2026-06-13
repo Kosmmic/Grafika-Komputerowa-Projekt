@@ -54,6 +54,12 @@
 		<ExtraCommands>
 			<Add after="XCOPY .\SDL2\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
 		</ExtraCommands>
+		<Unit filename="GK2026-DG8.cpp" />
+		<Unit filename="GK2026-DG8.h" />
+		<Unit filename="GK2026-DG8Dither.cpp" />
+		<Unit filename="GK2026-DG8Dither.h" />
+		<Unit filename="GK2026-DG8Paleta.cpp" />
+		<Unit filename="GK2026-DG8Paleta.h" />
 		<Unit filename="GK2026-Funkcje.cpp" />
 		<Unit filename="GK2026-Funkcje.h" />
 		<Unit filename="GK2026-MedianCut.cpp" />
